@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+background-color: #2B2B2B;}
+    nav{
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+        
+    }
+    nav ul{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        
+    }
+    nav ul li a{
+        font-size: 16px;
+        color: #fff;
+        list-style: none;
+
+    }
+    nav button{
+        width: 152px;
+        height: 60px;
+        background-color: #A259FF;
+        text-align: center;
+        color: #fff;
+        border-radius: 20px;
+        margin-right: 50px;
+    }
+    nav img{
+        margin-left: 50px;
+    }
+    .box{
+        height: 704px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        
+
+    }
+    .box1 h1{
+        font-size: 67px;
+        color: #fff;
+    }
+    .box1 p{
+        font-size: 22px;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .box1 button{
+        width: 224px;
+        height: 60px;
+        background-color: #A259FF;
+        text-align: center;
+        color: #fff;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    .box img{
+        width: 501px;
+        height: 401px;
+    }
+    .box h2{
+        color: #fff;
+        margin-top: 20px;
+    }
+    .box span{
+        color: #fff;
+    }
+    .box2{
+        display: flex;
+        
+    gap: 100px;
+    }
+    .box3 h2{
+color: #fff;
+margin-left: 10px;
+    }
+    .box3 p{
+        color: #fff;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .box3{
+        background-color: #3B3B3B;
+        border-radius: 10px;
+        height: 500px; 
+    }
+    .box4 h1{
+        font-size: 38px;
+        color: #fff;
+    }
+    .box4 p{
+        font-size: 22px;
+        color: #fff;
+        margin-top: 10px;
+    }
+    .katta{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    .mini{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mini div{
+        width: 100px;
+        height: 100px;
+        background-color: #A259FF;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .katta img{
+        border-radius: 20px;
+    }
+    .katta h2{
+        color:#fff;
+        margin-top: 15px;
+         
+    }
+    .katta p{
+        color: #fff;
+        margin-top: 10px;
+    }
+    .top1 h1{
+        font-size: 38px;
+        color: #fff;
+    }
+    .top1 p{
+        font-size: 22px;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .top1{
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top1 button{
+         width: 224px;
+        height: 60px;
+        border:3px solid  #A259FF;
+        background-color: #3B3B3B;
+        color: #fff;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .top2{
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4,240px);
+        grid-template-rows: repeat(3,238px);
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .top2 div{
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .top2 h2{
+        color: #fff;
+        font-size: 22px;
+    }
+    .top2 p{
+        color: #fff;
+        font-size: 16px;
+    }
+    .browse{
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4,240px);
+        grid-template-rows: repeat(2,316px);
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .browse div h1{
+        font-size: 22px;
+        color: #fff;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .browse div{
+        background-color: #3B3B3B;
+        border-radius: 20px;
+    }
+    .cat{
+        color: #fff;
+        font-size: 22px;
+        margin-top: 100px;
+    }
+    .more{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #2B2B2B;
+    }
+    .more div{
+        width: 330px;
+        height: 469px;
+
+    }
+.more div h1{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.more div p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+   
